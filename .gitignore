@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/
+
+# VS Code
+.vscode/
+
+# Data
+2DTIF_Stack/
+*.tif
+*.tiff
+*.am
+output-3d-ascii.am
