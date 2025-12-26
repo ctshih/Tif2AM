@@ -14,3 +14,6 @@ __pycache__/
 *.tiff
 *.am
 output-3d-ascii.am
+
+# Program Spec for Antigravitiy
+AppSpec_Tif2AM.txt
