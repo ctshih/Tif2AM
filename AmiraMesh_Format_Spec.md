@@ -96,34 +96,3 @@ Lattice { int Data } @1
 ...
 ```
 
----
-
-## 5. 完整範例 (Complete Example)
-
-這是一個 $2 \times 2 \times 2$ 的微型 Volume Data 範例：
-
-```text
-# AmiraMesh 3D ASCII 2.0
-
-# 1. 定義網格大小
-define Lattice 2 2 2
-
-# 2. 設定參數
-Parameters {
-    Content "2x2x2 float grid",
-    BoundingBox 0 1 0 1 0 1,
-    CoordType "uniform"
-}
-
-# 3. 宣告數據位置與類型
-Lattice { float Data } @1
-
-# 4. 實際數據內容
-# Data section follows
-@1
-0.1 0.2
-0.3 0.4
-0.5 0.6
-0.7 0.8
-```
-*註：上述數據共 8 個值，前 2 個為 z=0, y=0 的 row，接著是 z=0, y=1 的 row，依此類推。*
